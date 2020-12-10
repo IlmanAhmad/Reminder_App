@@ -1,0 +1,23 @@
+                                !!Reminder App !!
+
+This Program will remind you for all the tasks you need to be reminded.
+
+Installation requirements :-
+pip install -r requirements.txt
+
+Steps to use :-
+1. Create a Folder of the project and download all the files from this project.
+2. Open command prompt and navigate to directory path where you downloaded the files.
+3. Run the above installation requirement command to install the pre-requisites to run this program.
+4. Enter the event name and time in column A and B respectively in the file Datastore.xlsx
+5. Schedule the tasks using windows task scheduler.
+
+P.S. - You need to ensure the reminder time to be keyed in the datastore file prior to task schedule run.
+
+Steps to schedule Windows task :-
+1. Create Your First Task. Search for “Task Scheduler”.
+2. Create an Action. Go to Actions > New.
+3. Add the Python Executable File to the Program Script.
+4. Add the Path to Your Python Script in the Arguments.
+5. Create a Trigger. Go to Triggers > New.
+6. Test your task schedule. Select the task name > Run.
